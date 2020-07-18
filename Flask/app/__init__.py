@@ -10,6 +10,7 @@ def create_app():
     bootstrap = Bootstrap(app)
 
     app.config.from_object(Config)
+    app.config['PRESERVE_CONTEXT_ON_EXCEPTION'] = False
 
     app.register_blueprint(auth)
 
