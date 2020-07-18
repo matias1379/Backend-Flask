@@ -60,7 +60,7 @@ def hello():
     return render_template('hello.html', **context)
 
 """
->> $env:FLASK_APP="main.py"
->> $env:FLASK_DEBUG=1
->> $env:FLASK_ENV="development"
+$env:FLASK_APP="main.py"
+$env:FLASK_DEBUG=1
+$env:FLASK_ENV="development"
 """
